@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Prajwal's Company</h1>
+    <h1>Prajwal Company</h1>
     <nav>
       <ul>
         <li><a href="#products">Products</a></li>
