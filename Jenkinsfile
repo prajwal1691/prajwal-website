@@ -11,14 +11,14 @@ pipeline {
         stage('BUILD') {
             agent {label 'slave01'}
             steps {
-               sh 'cd /home/ec2-user/jenkins/workspace/prajwal-website'
+               sh 'cd /home/ec2-user/jenkins/workspace/prajwal-website1'
                 sh 'mvn clean install'
             }
         }
         stage('DEPLOY') {
            agent {label 'slave01'}
             steps {
-               sh '''cd /home/ec2-user/jenkins/workspace/prajwal-website/target
+               sh '''cd /home/ec2-user/jenkins/workspace/prajwal-website1/target
                 sudo cp *.war /opt/tomcat/webapps'''
             }
         }
