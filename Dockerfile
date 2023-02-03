@@ -1,5 +1,7 @@
-FROM node:12.2.0-alpine
-WORKDIR app
-COPY . .
-EXPOSE 8080
-CMD ["mvn","clean","install"]
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install -y git
+RUN git clone https://github.com/prajwal1691/hello-world.git
+RUN apt-get install -y maven
+WORKDIR /hello-world
+RUN mvn clean install
