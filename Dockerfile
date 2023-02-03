@@ -1,4 +1,5 @@
-FROM openjdk:8
-ADD target/prajwal-website.war
-ENTRYPOINT ["java", "-jar","prajwal-website.war"]
+ROM node:12.2.0-alpine
+WORKDIR app
+COPY . .
 EXPOSE 8080
+CMD ["mvn","clean","install]
