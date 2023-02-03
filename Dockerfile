@@ -1,7 +1,4 @@
-FROM ubuntu
-RUN apt-get update
-RUN apt-get install -y git
-RUN git clone https://github.com/prajwal1691/prajwal-website.git
-RUN apt-get install -y maven
-WORKDIR /hello-world
-RUN mvn clean install
+FROM openjdk:8
+ADD target/prajwal-website.war
+ENTRYPOINT ["java", "-jar","prajwal-website.war"]
+EXPOSE 8080
