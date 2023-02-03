@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Prajwal Company</h1>
+    <h1>Prajwals Company</h1>
     <nav>
       <ul>
         <li><a href="#products">Products</a></li>
@@ -42,7 +42,7 @@
     </section>
   </main>
   <footer>
-    <p>Copyright &copy; Prajwal's Industry</p>
+    <p>Copyright &copy; Prajwals Industry</p>
   </footer>
 </body>
 </html>
