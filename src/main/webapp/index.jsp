@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Website created by prajwal</title>
+  <title>Website created by prajwal today</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
