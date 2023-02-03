@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mcnz.rps.web</groupId>
-  <artifactId>hello-world</artifactId>
+  <artifactId>prajwal-website</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
@@ -43,7 +43,7 @@
   </dependencies>
 
   <build>
-    <finalName>hello-world</finalName>
+    <finalName>prajwal-website</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
 
